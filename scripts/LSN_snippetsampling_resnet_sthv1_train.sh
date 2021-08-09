@@ -1,0 +1,1 @@
+python ../main.py something RGB ../caption/STH-V1/train_videofolder.txt ../caption/STH-V1/val_videofolder.txt --arch resnet50 --num_segments 16 --gd 20 --lr 0.00375 --lr_steps 20 30 --epochs 40 --batch-size 24 -j 8 --dropout 0.5 --consensus_type=avg --eval-freq=1 --npb --short_len 16 --new_length 3 --cttlstm --result_path result/LSN_sthv1_train
