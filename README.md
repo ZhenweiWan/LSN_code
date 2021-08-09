@@ -25,7 +25,8 @@ Methods | frames | frames x clips x crops | S-S V1 (Top-1 Acc, %) | S-S V2 (Top-
 LSN  (ResNet50)    | 16 | 16 x 1 x 1 |  45.7|56.1   | -
 LSN+SS(ResNet50) | 16 | 16 x 2 x 1 |  50.4|62.3   | -
 LSN+SS(ResNet50)    | 16 | 16 x 2 x 1 |-   |-    | 82.3
-LSN+SS(ResNet50)    | 16 | 16 x 2 x 1 |-   |-    | 84.0
+LSN+SS*(ResNet50)    | 16 | 16 x 2 x 1 |-   |-    | 84.0  
+Where * means training from imagenet.
 ## Acknowledgments    
 * We thank the [TSN](https://github.com/yjxiong/temporal-segment-networks) and [conv-tt-lstm](https://sites.google.com/nvidia.com/conv-tt-lstm).
 ## Contact Information       
